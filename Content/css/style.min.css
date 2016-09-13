@@ -7365,6 +7365,9 @@ button.close {
 .slider-img {
   width: 100% !important;
 }
+.panel-body {
+  background-color: #18405b !important;
+}
 
 /*
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
@@ -10138,7 +10141,7 @@ p {
   color: #fff;
 }
 .text-faded {
-  color: rgba(255,255,255,0.7);
+  color: #fff;
 }
 section {
   padding: 100px 0;
@@ -10580,12 +10583,21 @@ Icon classes can be used entirely standalone. They are named after their origina
   .slider-img {
     height: 44vh !important;
   }
+  #map {
+    height: 320px !important;
+  }
+}
+.mt10 {
+  margin-top: 10px;
+}
+.ml15 {
+  margin-left: 15px;
 }
 .propostas {
   background-color: #dcdcdc;
 }
-.bg-grey {
-  background-color: #808080 !important;
+.bg-blue {
+  background-color: #18405b !important;
 }
 .ft-white {
   color: #fff !important;
@@ -10595,6 +10607,27 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .lista-proposta {
   padding-right: 3em;
+}
+.img-contato {
+  width: 3em;
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+.fone {
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+audio::-webkit-media-controls-panel {
+  background-color: #000;
+}
+#map {
+  height: 400px;
+  margin-top: -5px;
+}
+.logo {
+  position: absolute;
+  z-index: 1000;
+  width: 25%;
 }
 
 [data-component="Slider"] {
